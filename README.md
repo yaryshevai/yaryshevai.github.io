@@ -1,2 +1,2 @@
 # yaryshevai.github.io
-tryig sth new
+trying sth new
