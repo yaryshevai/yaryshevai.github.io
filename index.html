@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>anticheat</title>
+</head>
+<body style="font-family: Arial">
+<style>
+    #autorize{
+        width: 450px;
+        height: 100px;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        color: 000000;
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+    #autorize:target {display: block;}
+    .close {
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 2px;
+        color: #000000;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        cursor:pointer;
+    }
+    .close:hover {background: #e6e6ff;}
+</style>
+<p><a href="#autorize">Всплывающее окно для авторизации</a></p>
+<div id="autorize">
+    <p>Форма для авторизации</p>
+    <form>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+    <a href="#" class="close">Закрыть окно</a>
+</div>
+
+
+<style>
+    #upload{
+        width: 450px;
+        height: 150px;
+        text-align: center;
+        padding: 15px;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        color: 000000;
+        display: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+    #upload:target {display: block;}
+    .close {
+        display: inline-block;
+        border: 1px solid #000000;
+        border-radius: 2px;
+        color: #000000;
+        padding: 0 12px;
+        margin: 10px;
+        text-decoration: none;
+        background: #f2f2f2;
+        cursor:pointer;
+    }
+    .close:hover {background: #e6e6ff;}
+</style>
+<p><a href="#upload">Всплывающее окно для загрузки задания</a></p>
+<div id="upload">
+    <p>Форма для загрузки задания</p>
+    <p><input type="file"
+              accept="">
+    <form>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+    </form>
+    </p>
+    <a href="#" class="close">Закрыть окно</a>
+</div>
+</body>
+</html>
